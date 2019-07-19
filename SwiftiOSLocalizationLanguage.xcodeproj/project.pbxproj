@@ -16,6 +16,7 @@
 		382D271422E22FE30022D781 /* SwiftiOSLocalizationLanguageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D271322E22FE30022D781 /* SwiftiOSLocalizationLanguageUITests.swift */; };
 		382D272722E2321C0022D781 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 382D272922E2321C0022D781 /* Localizable.strings */; };
 		382D272C22E236FE0022D781 /* Extension+UIView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D272B22E236FE0022D781 /* Extension+UIView .swift */; };
+		382D272F22E23D370022D781 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D272E22E23D370022D781 /* LocalizationSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		382D272822E2321C0022D781 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		382D272A22E233120022D781 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		382D272B22E236FE0022D781 /* Extension+UIView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView .swift"; sourceTree = "<group>"; };
+		382D272E22E23D370022D781 /* LocalizationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		382D26F222E22FE10022D781 /* SwiftiOSLocalizationLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				382D272E22E23D370022D781 /* LocalizationSystem.swift */,
 				382D272D22E237260022D781 /* App */,
 				382D26F522E22FE10022D781 /* ViewController.swift */,
 				382D26F722E22FE10022D781 /* Main.storyboard */,
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				382D272C22E236FE0022D781 /* Extension+UIView .swift in Sources */,
+				382D272F22E23D370022D781 /* LocalizationSystem.swift in Sources */,
 				382D26F622E22FE10022D781 /* ViewController.swift in Sources */,
 				382D26F422E22FE10022D781 /* AppDelegate.swift in Sources */,
 			);
