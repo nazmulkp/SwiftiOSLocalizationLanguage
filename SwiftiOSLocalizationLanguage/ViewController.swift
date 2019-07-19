@@ -9,14 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setupView()
         setupUIContent()
     }
-
+    
     
     let titleLabel : UILabel = {
         let lb = UILabel()
@@ -51,18 +51,18 @@ class ViewController: UIViewController {
         return lb
     }()
     
-   lazy var setArabicButton : UIButton = {
+    lazy var setArabicButton : UIButton = {
         var button = UIButton()
         button.addTarget(self, action: #selector(setArabicBtnAction), for: .touchUpInside)
-         button.backgroundColor = UIColor.brown
+        button.backgroundColor = UIColor.brown
         return button
     }()
     
     @objc func setArabicBtnAction(){
-      setupUpdateView(languageCode: "ar")
+        setupUpdateView(languageCode: "ar")
     }
     
-   lazy var setSpanishButton : UIButton = {
+    lazy var setSpanishButton : UIButton = {
         var button = UIButton()
         button.addTarget(self, action: #selector(setSpanishBtnAction), for: .touchUpInside)
         button.backgroundColor = UIColor.blue
@@ -70,10 +70,10 @@ class ViewController: UIViewController {
     }()
     
     @objc func setSpanishBtnAction(){
-       setupUpdateView(languageCode: "es")
+        setupUpdateView(languageCode: "es")
     }
     
-   lazy var setEnglishButton : UIButton = {
+    lazy var setEnglishButton : UIButton = {
         var button = UIButton()
         button.addTarget(self, action: #selector(setEnglishBtnAction), for: .touchUpInside)
         button.backgroundColor = UIColor.orange
@@ -92,13 +92,13 @@ class ViewController: UIViewController {
     }
     
     func setupView(){
-       self.view.backgroundColor = UIColor.darkGray
-       self.view.addSubview(titleLabel)
-       self.view.addSubview(detailsLabel)
-       self.view.addSubview(currentLanguageInfoLabel)
-       self.view.addSubview(setArabicButton)
-       self.view.addSubview(setSpanishButton)
-       self.view.addSubview(setEnglishButton)
+        self.view.backgroundColor = UIColor.darkGray
+        self.view.addSubview(titleLabel)
+        self.view.addSubview(detailsLabel)
+        self.view.addSubview(currentLanguageInfoLabel)
+        self.view.addSubview(setArabicButton)
+        self.view.addSubview(setSpanishButton)
+        self.view.addSubview(setEnglishButton)
         
         titleLabel.anchor(self.view.topAnchor, left: self.view.leftAnchor, bottom: nil, right: self.view.rightAnchor, topConstant: 80, leftConstant: 20, bottomConstant: 0, rightConstant: 20, widthConstant: 0, heightConstant: 0)
         detailsLabel.anchor(self.titleLabel.bottomAnchor, left: self.view.leftAnchor, bottom: nil, right: self.view.rightAnchor, topConstant: 30, leftConstant: 20, bottomConstant: 0, rightConstant: 20, widthConstant: 0, heightConstant: 0)
@@ -110,14 +110,12 @@ class ViewController: UIViewController {
     }
     
     func setupUIContent(){
-        //TODO
         titleLabel.text = LocalizationSystem.sharedInstance.localizedStringForKey(key: "home_title", comment: "")
         detailsLabel.text = LocalizationSystem.sharedInstance.localizedStringForKey(key: "details", comment: "")
         currentLanguageInfoLabel.text = LocalizationSystem.sharedInstance.getLanguage()
-        
-       setArabicButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_Ar_lng", comment: ""), for: .normal)
-      setSpanishButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_spanish_lng", comment: ""), for: .normal)
-      setEnglishButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_eng_lng", comment: ""), for: .normal)
+        setArabicButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_Ar_lng", comment: ""), for: .normal)
+        setSpanishButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_spanish_lng", comment: ""), for: .normal)
+        setEnglishButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_eng_lng", comment: ""), for: .normal)
         
         
     }
