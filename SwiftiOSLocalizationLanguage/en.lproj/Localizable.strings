@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  SwiftiOSLocalizationLanguage
+
+  Created by Nazmul on 19/7/19.
+  Copyright © 2019 Nazmul. All rights reserved.
+*/
+
+"home_title" = "What Is the Purpose of Life?";
+"btn_change_lng" = "Change Language";

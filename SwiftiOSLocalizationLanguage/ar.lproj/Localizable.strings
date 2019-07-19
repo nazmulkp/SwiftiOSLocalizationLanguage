@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  SwiftiOSLocalizationLanguage
+
+  Created by Nazmul on 19/7/19.
+  Copyright © 2019 Nazmul. All rights reserved.
+*/
+
+"home_title" = "ماهو المغزى من الحياة؟";
+"btn_change_lng" = "Change Language";
