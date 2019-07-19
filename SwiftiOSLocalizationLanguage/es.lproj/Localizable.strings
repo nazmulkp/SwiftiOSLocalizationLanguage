@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  SwiftiOSLocalizationLanguage
+
+  Created by Nazmul on 19/7/19.
+  Copyright © 2019 Nazmul. All rights reserved.
+*/
+
+"home_title" = "¿Cuál es el propósito de la vida?";
+"details" = "[El] que creó la muerte y la vida para ponerte a prueba [en cuanto a] cuál de ustedes es mejor en hechos - y Él es el Exaltado en Poder, el Perdón. (Corán, 67: 2) \n \n Temer a Dios y guardar sus mandamientos , porque este es todo el deber del hombre. Porque Dios llevará a juicio cada hecho, incluso todo lo oculto, ya sea bueno o malo (Eclesiastés 12: 13-14).";
+"btn_eng_lng" = "English Language";
+"btn_Ar_lng" = "اللغة العربية";
+"btn_spanish_lng" = "Idioma en Inglés";

@@ -56,6 +56,9 @@
 		382D272A22E233120022D781 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		382D272B22E236FE0022D781 /* Extension+UIView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView .swift"; sourceTree = "<group>"; };
 		382D272E22E23D370022D781 /* LocalizationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
+		382D273022E24EA10022D781 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		382D273122E24EA10022D781 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		382D273222E24EA10022D781 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +235,7 @@
 				en,
 				Base,
 				ar,
+				es,
 			);
 			mainGroup = 382D26E722E22FE10022D781;
 			productRefGroup = 382D26F122E22FE10022D781 /* Products */;
@@ -322,6 +326,7 @@
 			children = (
 				382D26F822E22FE10022D781 /* Base */,
 				382D272522E231CE0022D781 /* ar */,
+				382D273022E24EA10022D781 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -331,6 +336,7 @@
 			children = (
 				382D26FD22E22FE30022D781 /* Base */,
 				382D272622E231CE0022D781 /* ar */,
+				382D273122E24EA10022D781 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -340,6 +346,7 @@
 			children = (
 				382D272822E2321C0022D781 /* ar */,
 				382D272A22E233120022D781 /* en */,
+				382D273222E24EA10022D781 /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

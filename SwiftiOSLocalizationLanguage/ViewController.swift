@@ -70,8 +70,7 @@ class ViewController: UIViewController {
     }()
     
     @objc func setSpanishBtnAction(){
-       LocalizationSystem.sharedInstance.setLanguage(languageCode: "")
-        setupUIContent()
+       setupUpdateView(languageCode: "es")
     }
     
    lazy var setEnglishButton : UIButton = {
@@ -87,7 +86,7 @@ class ViewController: UIViewController {
     
     func setupUpdateView(languageCode code: String){
         LocalizationSystem.sharedInstance.setLanguage(languageCode: code)
-        UIView.appearance().semanticContentAttribute = .forceLeftToRight
+        UIView.appearance().semanticContentAttribute =  code == "ar" ? .forceRightToLeft :  .forceLeftToRight
         let app = UIApplication.shared.delegate as? AppDelegate
         app?.window?.rootViewController = ViewController()
     }
@@ -117,6 +116,7 @@ class ViewController: UIViewController {
         currentLanguageInfoLabel.text = LocalizationSystem.sharedInstance.getLanguage()
         
        setArabicButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_Ar_lng", comment: ""), for: .normal)
+      setSpanishButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_spanish_lng", comment: ""), for: .normal)
       setEnglishButton.setTitle(LocalizationSystem.sharedInstance.localizedStringForKey(key: "btn_eng_lng", comment: ""), for: .normal)
         
         
