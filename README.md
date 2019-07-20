@@ -1,5 +1,5 @@
 # Swift iOS Localization Language
-How to change localization language without restart application swift4 and hire?
+How to change localization language without restart application swift4?
 
 <p align="center">
   <img width="250" height="500" src="https://i.imgur.com/Xr9KGde.png">
