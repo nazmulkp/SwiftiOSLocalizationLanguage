@@ -15,6 +15,7 @@ English, Arabic and Spanish
 ## Description:
 
 * Support RTL.
+* Build are both Arabic and English languages handle
 * Change localization language without restart application swift
 
 ## Arabic Support RTL
