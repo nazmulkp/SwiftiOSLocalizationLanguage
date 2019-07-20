@@ -20,10 +20,12 @@ English, Arabic and Spanish
 ## Arabic Support RTL
 
 ```python
- LocalizationSystem.sharedInstance.setLanguage(languageCode: code)
+     func setupUpdateView(languageCode code: String){
+        LocalizationSystem.sharedInstance.setLanguage(languageCode: code)
         UIView.appearance().semanticContentAttribute =  code == "ar" ? .forceRightToLeft :  .forceLeftToRight
         let app = UIApplication.shared.delegate as? AppDelegate
         app?.window?.rootViewController = ViewController()
+    }
 ```
 
 ## Contributing
