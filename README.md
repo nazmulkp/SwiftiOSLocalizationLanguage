@@ -36,4 +36,13 @@ Please make sure to update tests as appropriate.
 
 
 ## Contact with Me
+
+Hi!<br/>
+Right now i have 4 years+ experience iPhone application development/Xcode App Update / Bug Fixes. my 7 development apps almost App store top leading app.[Stackoverflow 6000+ reputation for 150+ accepted and voted answer](https://stackoverflow.com/users/4415445/nazmul-hasan). I love to write clean code that is help to understand new developer to enhance the app easily in future.
+
+Thanks you <br/>
+Nazmul Hasan <br/>
+Sr. software engineer, iOS<br/>
+Skype: nazmulkp1<br/>
+Mail: nazmulcsharp@gmail.com<br/>
 [Linkedin](https://www.linkedin.com/in/nazmulkp/)
